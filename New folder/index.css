@@ -1,0 +1,154 @@
+#HeaderTop{
+  background-color: #21529E;
+  padding: 5px;
+  font-size: 0.95cm;
+  text-align: center;
+}
+.Header{
+  color: white;
+}
+#Firstnavbar{
+  background-color: rgb(227, 226, 226);
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 4px;
+  font-size: 17px;
+  
+}
+#Logo{
+  width: 14%;
+}
+
+#Searchbox{
+  display: flex;
+  justify-content: center;
+  gap: 10px ;
+  padding: 10px;
+}
+#Searchtool{
+  width: 50%;
+  height: 30px;
+  margin-top: 25px;
+}
+#Searchbutton{
+  width: 10%;
+  height: 35px;
+  margin-top: 25px;
+}
+
+#Searchbox{
+  background-color:  rgb(227, 226, 226);
+}
+
+.Firstnavbarmenu{
+  text-decoration: none;
+}
+
+
+#Secondnavbar{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 4px;
+  font-size: 17px;
+  background-color: rgb(0, 115, 166);
+}
+.Secondnavbarmenu{
+  color: white;
+  text-decoration: none;
+}
+.Firstimage{
+  width: 100%;
+}
+
+#Firstimage{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ 
+}
+
+#Tabledata{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 17px;
+}
+#Secondimage{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Secondimage{
+  width: 85%;
+}
+
+#Thirdimages{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#Container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%; /* Adjust as needed */
+  position: absolute;
+  top: 205%; /* Center vertically */
+  overflow: hidden; /* Clip content if it overflows */
+  border: 5px solid black;
+  margin-left: 5px;
+}
+
+.Corouselimages {
+  width: 100%;
+  display: flex;
+  animation: slide 14s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%); /* Slide to the left */
+  }
+}
+
+
+#Fourimages{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 400px;
+}
+
+#fifthbanner{
+  align-items: center;
+  margin-left: 20px;
+}
+
+#sixthbanner{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+}
+
+#Bottom{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(209, 208, 208);
+}
+
+.Links{
+  text-decoration: none;
+  color: black;
+
+;
+}
